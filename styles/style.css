@@ -41,6 +41,7 @@
 }
 
 .header__subtitle {
+  margin: 0;
   position: absolute;
   left: 64px;
   bottom: 30px;
@@ -351,8 +352,6 @@
   }
 
   .footer__column-link {
-    display: flex;
-    flex-direction: row;
     color: white;
     text-decoration: none;
   }
