@@ -15,132 +15,17 @@
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph\ last-of-type.css);
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
-  
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  .digits {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }  
-
-  .section-title {
-    margin: 0;
-    text-align: center;
-    width: 60%;
-    line-height: 1.15;
-    font-size: 60px;
-    font-weight: bold;
-  }
-
-  .section-subtitle {
-    text-align: center;
-    width: 60%;
-    line-height: 34px;
-    font-size: 24px;
-    margin: 20px 0 0;
-    font-weight: normal;
-  }
-
-  .table {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 1100px;
-  }
-
-  .table__cell {
-    width: 250px;
-    margin-top: 60px;
-  }
-
-  .table__heading {
-    margin: 0;
-    padding: 0;
-    line-height: 1.15;
-    font-size: 24px;
-    font-weight: bold;
-  }
-
-  .table__text {
-    margin: 20px 0 0;
-    line-height: 1.2;
-    font-size: 18px;
-  }
-
-  .feynman {
-    background-image: url(../images/feynman.png);
-    background-color: #f2f2f2;
-    background-position: bottom left;
-    background-repeat: no-repeat;
-    background-size: 867px 637px;
-    min-height: 890px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    margin-top: 100px;
-  }
-  
-  .feynman__title {
-    width: 648px;
-    margin-top: 100px;
-    margin-bottom: 0;
-    text-align: center;
-    line-height: 1.15;
-    font-size: 120px;
-    font-weight: bold;
-  }
-
-  .feynman__subtitle {
-    margin-bottom: 0;
-    margin-top: 70px;
-    text-align: center;
-    line-height: 51px;
-    font-size: 36px;
-    font-weight: normal;
-  }
-
-  .feynman__link {
-    color: #2f80ed;
-    position: absolute;
-    right: 48px;
-    top: 50%;
-    line-height: 51px;
-    font-size: 36px;
-    text-decoration: none;
-  }
-
+@import url(../blocks/digits/digits.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/__cell/table__cell.css);
+@import url(../blocks/table/__heading/table__heading.css);
+@import url(../blocks/table/__text/table__text.css);
+@import url(../blocks/feynman/feynman.css);
+@import url(../blocks/feynman/__title/feynman__title.css);
+@import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
+@import url(../blocks/feynman/__link/feynman__link.css);
   .kaufman {
     display: flex;
     flex-direction: column;
