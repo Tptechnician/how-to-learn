@@ -3,6 +3,7 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__link/header__link.css);
@@ -26,157 +27,22 @@
 @import url(../blocks/feynman/__title/feynman__title.css);
 @import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
 @import url(../blocks/feynman/__link/feynman__link.css);
-  .kaufman {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    background-color: #1f1f1f;
-  }  
-
-  .section-title_theme_dark {
-    margin: 90px 0 0;
-    text-align: center;
-    width: 60%;
-    line-height: 1.15;
-    font-size: 60px;
-    font-weight: bold;
-    color: white;
-    z-index: 2;
-  }
-
-  .section-subtitle_theme_dark {
-    text-align: center;
-    width: 60%;
-    line-height: 34px;
-    font-size: 24px;
-    margin: 20px 0 0;
-    color: white;
-    z-index: 2;
-  }
-
-  .table_theme_dark {
-    list-style: none;
-    margin: 0 0 90px;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 1100px;
-    z-index: 2;
-  }
-  .table__cell_theme_dark {
-    width: 200px;
-    margin-top: 80px;
-  }
-
-  .table__heading_theme_dark {
-    margin: 0;
-    padding: 0;
-    line-height: 1.15;
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
-  }
-
-  .table__text_theme_dark {
-    margin: 20px 0 0;
-    line-height: 1.2;
-    font-size: 18px;
-    color: white;
-  }
-
-  .kaufman__triangle {
-    background-image: url(../images/kaufman-triangle.svg);
-    background-size: cover;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    width: 877px;
-    height: 877px;
-    right: -210px;
-    top: 0;
-    z-index: 1;
-  }
-
-  .footer {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-    min-height: 350px;
-    background-color: #1f1f1f;
-  }
-
-  .footer__columns {
-    margin: 60px 0 40px;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-  }
-
-  .footer__column_content_copyright {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-basis: 711px;
-  }
-
-  .logo_place_footer {
-    width: 183px;
-    height: 35px;
-  }
-
-  .footer__author {
-    margin: 18px 0 18px;
-    color: white;
-    line-height: 25px;
-    font-size: 18px;
-  }
-
-  .footer__column_content_info {
-    display: flex;
-    flex-direction: column;
-  }
-  .footer__column-heading {
-    margin: 0;
-    color: white;
-    line-height: 30px;
-    font-size: 18px;
-    font-weight: bold;
-  }
-
-  .footer__column-links {
-    display: flex;
-    flex-direction: column;
-    line-height: 30px;
-    font-size: 18px;
-    margin: 20px 0 16px;    
-  }
-
-  .footer__column-link {
-    color: white;
-    text-decoration: none;
-  }
-
-  .footer__column_content_socia {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .footer__social-icon {
-    width: 16px;
-    height: 16px;
-  }
-
-  .footer__social-link {
-    color: white;
-    text-decoration: none;
-  }
-
-  
+@import url(../blocks/kaufman/kaufman.css);
+@import url(../blocks/section-title/_theme/section-title_theme_dark.css);
+@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
+@import url(../blocks/table/_theme/table_theme_dark.css);
+@import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
+@import url(../blocks/table/__heading/_theme/table__heading_theme_dark.css);
+@import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
+@import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/_content/footer__column_content_copyright.css);
+@import url(../blocks/footer/__author/footer__author.css);
+@import url(../blocks/footer/_content/footer__column_content_info.css);
+@import url(../blocks/footer/_content/footer__column_content_socia.css);
+@import url(../blocks/footer/column-heading/footer__column-heading.css);
+@import url(../blocks/footer/__column-links/footer__column-links.css);
+@import url(../blocks/footer/__column-link/footer__column-link.css);
+@import url(../blocks/footer/__social-icon/footer__social-icon.css);
+@import url(../blocks/footer/__social-link/footer__social-link.css);
