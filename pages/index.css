@@ -16,7 +16,7 @@
 @import url(../blocks/description/description.css);
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/two-columns/__brief/two-columns__brief.css);
-@import url(../blocks/two-columns/__main-tex/two-columns__main-tex.css);
+@import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph\ last-of-type.css);
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
@@ -76,7 +76,7 @@
 @import url(../blocks/footer/_content/footer__column_content_copyright.css);
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/_content/footer__column_content_info.css);
-@import url(../blocks/footer/_content/footer__column_content_socia.css);
+@import url(../blocks/footer/_content/footer__column_content_social.css);
 @import url(../blocks/footer/column-heading/footer__column-heading.css);
 @import url(../blocks/footer/__column-links/footer__column-links.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
