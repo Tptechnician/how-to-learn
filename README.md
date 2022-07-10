@@ -18,7 +18,8 @@
 - HTML5;
 - CSS3:
   - Flexbox;
-  - Media Queries;
+  - IFrame;
+  - keyframes;
 - Методология БЭМ;
 - Фйловая структура БЭМ Nested;
 
